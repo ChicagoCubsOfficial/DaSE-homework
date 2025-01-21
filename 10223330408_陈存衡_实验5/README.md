@@ -1,5 +1,21 @@
 **项目**
 - 多模态情感分析
+**SETUP**
+- This implementation is based on Python 3. To run the code, you need the following dependencies:
+
+torch==1.10.0
+torchvision==0.11.0
+numpy==1.19.2
+pandas==1.1.5
+scikit-learn==0.24.2
+matplotlib==3.1.1
+Pillow==8.0.1
+tqdm==4.64.0
+chardet==4.0.0
+To install all required dependencies, you can simply run the following command:
+
+   pip install -r requirements.txt
+   
 **项目介绍**
 - 本实验旨在设计一个多模态融合模型
 - 通过文本和图像数据的联合学习
